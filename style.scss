@@ -1,20 +1,23 @@
 // Reset
-@import 'reset';
+@import "scss/reset";
+
+// Typebase
+@import "scss/typebase";
 
 // Global 
-@import 'global';
-
-/* Custom, iPhone Retina */
-@import 'iphone_retina';
-
-/* Extra Small Devices, Phones */
-@import 'small_devices';
-
-/* Small Devices, Tablets */
-@import 'tablet';
-
-/* Medium Devices, Desktops */
-@import 'desktop';
+@import "scss/global";
 
 /* Large Devices, Wide Screens */
-@import 'wide_screen';
+@import "scss/wide_screen";
+
+/* Medium Devices, Desktops */
+@import "scss/desktop";
+
+/* Small Devices, Tablets */
+@import "scss/tablet";
+
+/* Extra Small Devices, Phones */
+@import "scss/small_devices";
+
+/* Custom, iPhone Retina */
+@import "scss/iphone_retina";
